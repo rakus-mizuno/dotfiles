@@ -20,15 +20,6 @@ alias python="python3"
 alias python-config="python3-config"
 alias pip="pip3"
 
-# Fxxk `git checkout` command
-git() {
-	if [ "$1" = checkout ]; then
-		echo "Use git switch instead!"
-		return 1
-	fi
-	command git "$@"
-}
-
 # npm
 export NPM_HOME="$HOME/.npm-global"
 export PATH="$NPM_HOME/bin:$PATH"
