@@ -6,6 +6,7 @@ catppuccin.catppuccin-vsc-icons
 charliermarsh.ruff
 christian-kohler.path-intellisense
 dbaeumer.vscode-eslint
+denoland.vscode-deno
 eamodio.gitlens
 esbenp.prettier-vscode
 figma.figma-vscode-extension
