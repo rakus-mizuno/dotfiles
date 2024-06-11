@@ -3,11 +3,9 @@ angular.ng-template
 bierner.markdown-mermaid
 catppuccin.catppuccin-vsc
 catppuccin.catppuccin-vsc-icons
-charliermarsh.ruff
 christian-kohler.path-intellisense
 dbaeumer.vscode-eslint
 denoland.vscode-deno
-eamodio.gitlens
 esbenp.prettier-vscode
 figma.figma-vscode-extension
 formulahendry.auto-rename-tag
