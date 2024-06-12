@@ -31,4 +31,3 @@ usernamehw.errorlens
 vitest.explorer
 yoavbls.pretty-ts-errors
 
-
