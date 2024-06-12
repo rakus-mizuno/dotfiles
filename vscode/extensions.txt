@@ -6,6 +6,7 @@ catppuccin.catppuccin-vsc-icons
 christian-kohler.path-intellisense
 dbaeumer.vscode-eslint
 denoland.vscode-deno
+eamodio.gitlens
 esbenp.prettier-vscode
 figma.figma-vscode-extension
 formulahendry.auto-rename-tag
@@ -29,3 +30,5 @@ typespec.typespec-vscode
 usernamehw.errorlens
 vitest.explorer
 yoavbls.pretty-ts-errors
+
+
