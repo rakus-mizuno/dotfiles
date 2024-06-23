@@ -3,6 +3,7 @@ angular.ng-template
 bierner.markdown-mermaid
 catppuccin.catppuccin-vsc
 catppuccin.catppuccin-vsc-icons
+charliermarsh.ruff
 christian-kohler.path-intellisense
 dbaeumer.vscode-eslint
 denoland.vscode-deno
@@ -20,6 +21,7 @@ ms-python.debugpy
 ms-python.python
 ms-python.vscode-pylance
 ms-vscode.vscode-js-profile-flame
+ms-vscode.vscode-typescript-next
 natqe.reload
 oderwat.indent-rainbow
 rangav.vscode-thunder-client
@@ -30,4 +32,3 @@ typespec.typespec-vscode
 usernamehw.errorlens
 vitest.explorer
 yoavbls.pretty-ts-errors
-
