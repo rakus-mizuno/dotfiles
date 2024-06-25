@@ -3,7 +3,7 @@ angular.ng-template
 bierner.markdown-mermaid
 catppuccin.catppuccin-vsc
 catppuccin.catppuccin-vsc-icons
-charliermarsh.ruff
+catppuccin.catppuccin-vsc-pack
 christian-kohler.path-intellisense
 dbaeumer.vscode-eslint
 denoland.vscode-deno
@@ -15,6 +15,7 @@ github.copilot
 github.copilot-chat
 github.vscode-github-actions
 github.vscode-pull-request-github
+gleam.gleam
 gruntfuggly.todo-tree
 mechatroner.rainbow-csv
 ms-python.debugpy
