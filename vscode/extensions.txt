@@ -1,10 +1,12 @@
 adpyke.codesnap
 angular.ng-template
 bierner.markdown-mermaid
+bradlc.vscode-tailwindcss
 catppuccin.catppuccin-vsc
 catppuccin.catppuccin-vsc-icons
 catppuccin.catppuccin-vsc-pack
 christian-kohler.path-intellisense
+csstools.postcss
 dbaeumer.vscode-eslint
 denoland.vscode-deno
 eamodio.gitlens
