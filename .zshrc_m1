@@ -63,13 +63,6 @@ bindkey "^u" peco-cdr
 # starship
 eval "$(starship init zsh)"
 
-# exa
-if [[ $(command -v exa) ]]; then
-  alias ls="exa --icons --git"
-  alias lt="exa -T -L 3 -a -I 'node_modules|.git|.cache' --icons"
-  alias ltl="exa -T -L 3 -a -I 'node_modules|.git|.cache' -l --icons"
-fi
-
 # asdf
 . /usr/local/opt/asdf/libexec/asdf.sh
 
