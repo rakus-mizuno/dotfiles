@@ -33,6 +33,9 @@ export PATH="$ANDROID_SDK_ROOT/tools:$PATH"
 export JAVA_HOME=/Applications/"Android Studio.app"/Contents/jbr/Contents/Home
 export PATH="$JAVA_HOME/bin:$PATH"
 
+# eza
+alias ls="eza"
+
 # peco
 function peco-select-history() {
   BUFFER=$(\history -n -r 1 | peco --query "$LBUFFER")
