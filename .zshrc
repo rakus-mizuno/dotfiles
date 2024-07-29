@@ -1,19 +1,15 @@
 export EDITOR=vim
 export LANG=en_US.UTF-8
-export LC_ALL=en_US.UTF-8
 
 HISTFILE=$HOME/.zsh_history
-HISTSIZE=100000
-SAVEHIST=100000
+HISTSIZE=10000
+SAVEHIST=10000
 
 setopt hist_ignore_all_dups
 setopt hist_reduce_blanks
-setopt inc_append_history
 setopt share_history
 setopt IGNOREEOF
-unsetopt PROMPT_SP
-autoload -Uz compinit
-compinit
+autoload -Uz compinit && compinit
 
 # Android
 export ANDROID_SDK_ROOT="$HOME/Library/Android/sdk"
