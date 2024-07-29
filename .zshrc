@@ -15,15 +15,6 @@ unsetopt PROMPT_SP
 autoload -Uz compinit
 compinit
 
-# Fxxk Python 2.x
-alias python="python3"
-alias python-config="python3-config"
-alias pip="pip3"
-
-# npm
-export NPM_HOME="$HOME/.npm-global"
-export PATH="$NPM_HOME/bin:$PATH"
-
 # Android
 export ANDROID_SDK_ROOT="$HOME/Library/Android/sdk"
 export PATH="$ANDROID_SDK_ROOT/platform-tools:$PATH"
@@ -66,6 +57,6 @@ bindkey "^u" peco-cdr
 # starship
 eval "$(starship init zsh)"
 
-# asdf
-. /usr/local/opt/asdf/libexec/asdf.sh
+# mise
+eval "$(mise activate zsh)"
 
