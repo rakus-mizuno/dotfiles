@@ -79,6 +79,8 @@
 	oACnAN4BFgEYARoBHAEjASgBLgEwATIBNA2ADYUNkA2ZDaYNqQ22Db8NxA3MAAAAAAAA
 	AgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAADc8=
 	</data>
+	<key>DisableANSIColor</key>
+	<false/>
 	<key>Font</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
@@ -97,9 +99,9 @@
 	<key>columnCount</key>
 	<integer>144</integer>
 	<key>name</key>
-	<string>Basic</string>
+	<string>MyTheme</string>
 	<key>rowCount</key>
-	<integer>48</integer>
+	<integer>40</integer>
 	<key>type</key>
 	<string>Window Settings</string>
 </dict>
