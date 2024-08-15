@@ -97,9 +97,9 @@
 	<key>columnCount</key>
 	<integer>144</integer>
 	<key>name</key>
-	<string>Basic</string>
+	<string>MyTheme</string>
 	<key>rowCount</key>
-	<integer>48</integer>
+	<integer>40</integer>
 	<key>type</key>
 	<string>Window Settings</string>
 </dict>
