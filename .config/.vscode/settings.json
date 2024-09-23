@@ -1,22 +1,24 @@
 {
+  "codesnap.showLineNumbers": false,
+  "codesnap.showWindowControls": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
     "source.organizeImports": "explicit"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.fontFamily": "MonaspiceAr Nerd Font",
-  "editor.fontSize": 13,
+  "editor.fontFamily": "'MonaspiceAr Nerd Font', monospace",
   "editor.formatOnSave": true,
   "editor.stickyScroll.enabled": false,
   "editor.tabSize": 2,
   "files.insertFinalNewline": true,
-  "redhat.telemetry.enabled": false,
   "terminal.integrated.fontFamily": "MonaspiceAr Nerd Font",
-  "terminal.integrated.fontSize": 14,
+  "todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX", "[ ]", "[x]", "NOTE"],
+  "todo-tree.regex.regex": "(?:(?://|#|<!--|;|/\\*\\*?|\\*)\\s*($TAGS)|^\\s*- \\[ \\])",
   "typescript.implementationsCodeLens.enabled": true,
   "typescript.referencesCodeLens.enabled": true,
   "typescript.surveys.enabled": false,
+  "window.titleBarStyle": "native",
   "workbench.colorTheme": "Catppuccin Mocha",
   "workbench.iconTheme": "catppuccin-mocha",
   "[rust]": {
