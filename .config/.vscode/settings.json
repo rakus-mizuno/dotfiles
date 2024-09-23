@@ -1,0 +1,26 @@
+{
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "MonaspiceAr Nerd Font",
+  "editor.fontSize": 13,
+  "editor.formatOnSave": true,
+  "editor.stickyScroll.enabled": false,
+  "editor.tabSize": 2,
+  "files.insertFinalNewline": true,
+  "redhat.telemetry.enabled": false,
+  "terminal.integrated.fontFamily": "MonaspiceAr Nerd Font",
+  "terminal.integrated.fontSize": 14,
+  "typescript.implementationsCodeLens.enabled": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.surveys.enabled": false,
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "catppuccin-mocha",
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  }
+}
+
