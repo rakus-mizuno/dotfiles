@@ -1,7 +1,7 @@
 export EDITOR=vim
 export LANG=en_US.UTF-8
 
-HISTFILE=$HOME/.zsh_history
+HISTFILE="$HOME/.zsh_history"
 HISTSIZE=10000
 SAVEHIST=10000
 
@@ -9,10 +9,8 @@ setopt hist_ignore_all_dups
 setopt hist_reduce_blanks
 setopt share_history
 setopt IGNOREEOF
-autoload -Uz compinit && compinit
-
-# npm
-export PATH=~/.npm-global/bin:$PATH
+autoload -Uz compinit
+compinit
 
 # Android
 export ANDROID_SDK_ROOT="$HOME/Library/Android/sdk"
@@ -52,6 +50,9 @@ function peco-cdr() {
 }
 zle -N peco-cdr
 bindkey "^u" peco-cdr
+
+# npm
+export PATH="$HOME/.npm-global/bin:$PATH"
 
 # starship
 eval "$(starship init zsh)"
