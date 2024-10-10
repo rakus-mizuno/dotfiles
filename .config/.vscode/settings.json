@@ -12,9 +12,8 @@
   "editor.stickyScroll.enabled": false,
   "editor.tabSize": 2,
   "files.insertFinalNewline": true,
+  "githubPullRequests.pullBranch": "never",
   "terminal.integrated.fontFamily": "MonaspiceAr Nerd Font",
-  "todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX", "[ ]", "[x]", "NOTE"],
-  "todo-tree.regex.regex": "(?:(?://|#|<!--|;|/\\*\\*?|\\*)\\s*($TAGS)|^\\s*- \\[ \\])",
   "typescript.implementationsCodeLens.enabled": true,
   "typescript.referencesCodeLens.enabled": true,
   "typescript.surveys.enabled": false,
@@ -25,4 +24,3 @@
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
   }
 }
-
