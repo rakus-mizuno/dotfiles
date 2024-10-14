@@ -23,7 +23,6 @@
   "typescript.surveys.enabled": false,
   "window.commandCenter": false,
   "window.title": "\u0020",
-  "window.titleBarStyle": "native",
   "workbench.colorTheme": "Catppuccin Mocha",
   "workbench.iconTheme": "catppuccin-mocha",
   "workbench.tree.indent": 24,
