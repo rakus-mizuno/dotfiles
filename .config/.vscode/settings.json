@@ -1,25 +1,32 @@
 {
-  "codesnap.showLineNumbers": false,
-  "codesnap.showWindowControls": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
     "source.organizeImports": "explicit"
   },
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "explicit",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "'MonaspiceAr Nerd Font', monospace",
+  "editor.fontSize": 13,
   "editor.formatOnSave": true,
+  "editor.renderLineHighlight": "all",
+  "editor.renderLineHighlightOnlyWhenFocus": true,
   "editor.stickyScroll.enabled": false,
   "editor.tabSize": 2,
   "files.insertFinalNewline": true,
   "githubPullRequests.pullBranch": "never",
   "terminal.integrated.fontFamily": "MonaspiceAr Nerd Font",
+  "terminal.integrated.fontSize": 14,
   "typescript.implementationsCodeLens.enabled": true,
   "typescript.referencesCodeLens.enabled": true,
   "typescript.surveys.enabled": false,
+  "window.commandCenter": false,
+  "window.title": "\u0020",
   "window.titleBarStyle": "native",
   "workbench.colorTheme": "Catppuccin Mocha",
   "workbench.iconTheme": "catppuccin-mocha",
+  "workbench.tree.indent": 24,
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
   }
