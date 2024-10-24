@@ -29,5 +29,13 @@
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
   },
-  "cSpell.userWords": ["catppuccin", "esbenp", "Monaspice"]
+  "cSpell.userWords": [
+    "catppuccin",
+    "esbenp",
+    "lefthook",
+    "Monaspice",
+    "openapi",
+    "openapitools",
+    "tanstack"
+  ]
 }
