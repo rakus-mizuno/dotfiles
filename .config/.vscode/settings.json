@@ -37,7 +37,10 @@
     "Monaspice",
     "openapi",
     "openapitools",
+    "rdpartylicenses",
+    "tailwindcss",
     "tanstack",
+    "tsbuildinfo",
     "tseslint",
     "yusuke"
   ]
