@@ -33,19 +33,20 @@
     "autoprefixer",
     "catppuccin",
     "esbenp",
+    "hairihou",
     "lefthook",
     "mizuno",
     "Monaspice",
     "openapi",
     "openapitools",
     "postcss",
-    "rdpartylicenses",
     "tailwindcss",
     "tanstack",
     "tsbuildinfo",
     "tseslint",
     "vite",
     "vitejs",
+    "vitest",
     "yusuke"
   ]
 }
