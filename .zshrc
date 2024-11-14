@@ -1,5 +1,5 @@
-export EDITOR=vim
-export LANG=en_US.UTF-8
+export EDITOR='vim'
+export LANG='en_US.UTF-8'
 
 HISTFILE="$HOME/.zsh_history"
 HISTSIZE=10000
@@ -18,11 +18,11 @@ export PATH="$ANDROID_SDK_ROOT/platform-tools:$PATH"
 export PATH="$ANDROID_SDK_ROOT/tools:$PATH"
 
 # Java
-export JAVA_HOME=/Applications/"Android Studio.app"/Contents/jbr/Contents/Home
+export JAVA_HOME="/Applications/Android Studio.app/Contents/jbr/Contents/Home"
 export PATH="$JAVA_HOME/bin:$PATH"
 
 # eza
-alias ls="eza"
+alias ls='eza'
 
 # peco
 function peco-select-history() {
