@@ -72,3 +72,6 @@ eval "$(starship init zsh)"
 
 # mise
 eval "$(mise activate zsh)"
+
+# Rancher Desktop
+export PATH="$HOME/.rd/bin:$PATH"
