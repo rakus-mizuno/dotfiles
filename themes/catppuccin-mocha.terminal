@@ -166,6 +166,8 @@
 	cqIWGFhOU09iamVjdAgRGiQpMjdJTFFTV11kand+qKqssbzFzdAAAAAAAAABAQAAAAAA
 	AAAZAAAAAAAAAAAAAAAAAAAA2Q==
 	</data>
+	<key>CursorBlink</key>
+	<true/>
 	<key>CursorColor</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
@@ -175,7 +177,11 @@
 	cqIWGFhOU09iamVjdAgRGiQpMjdJTFFTV11kand+qKqssbzFzdAAAAAAAAABAQAAAAAA
 	AAAZAAAAAAAAAAAAAAAAAAAA2Q==
 	</data>
+	<key>CursorType</key>
+	<integer>2</integer>
 	<key>DisableANSIColor</key>
+	<false/>
+	<key>EnableSmoothResizing</key>
 	<false/>
 	<key>Font</key>
 	<data>
@@ -209,11 +215,11 @@
 	AAAZAAAAAAAAAAAAAAAAAAAA2Q==
 	</data>
 	<key>columnCount</key>
-	<integer>144</integer>
+	<integer>160</integer>
 	<key>name</key>
-	<string>my-theme</string>
+	<string>catppuccin-mocha</string>
 	<key>rowCount</key>
-	<integer>40</integer>
+	<integer>48</integer>
 	<key>type</key>
 	<string>Window Settings</string>
 </dict>
