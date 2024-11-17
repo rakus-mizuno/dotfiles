@@ -2,6 +2,7 @@
 
 zshrc:
 	@rsync -au ./.zshrc ~/
+	@[ -e ~/.hushlogin ] || touch ~/.hushlogin
 
 dump_zshrc:
 	@rsync -au ~/.zshrc ./

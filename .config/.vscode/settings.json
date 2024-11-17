@@ -16,6 +16,7 @@
   "editor.tabSize": 2,
   "files.insertFinalNewline": true,
   "githubPullRequests.pullBranch": "never",
+  "makefile.configureOnOpen": true,
   "terminal.integrated.fontFamily": "'MonaspiceAr Nerd Font', monospace",
   "terminal.integrated.fontSize": 14,
   "typescript.implementationsCodeLens.enabled": true,
@@ -32,6 +33,8 @@
   "cSpell.userWords": [
     "autoprefixer",
     "catppuccin",
+    "devcontainers",
+    "dotfiles",
     "esbenp",
     "hairihou",
     "lefthook",
