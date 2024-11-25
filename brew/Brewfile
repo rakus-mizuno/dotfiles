@@ -1,5 +1,4 @@
 tap "homebrew/bundle"
-brew "eza"
 brew "gh"
 brew "git"
 brew "mise"

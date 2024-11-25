@@ -12,9 +12,6 @@ setopt IGNOREEOF
 autoload -Uz compinit
 compinit
 
-# Alises
-alias ls='eza'
-
 # peco
 peco-select-history() {
   BUFFER=$(\history -n -r 1 | peco --query "$LBUFFER")
