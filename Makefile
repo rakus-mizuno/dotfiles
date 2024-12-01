@@ -1,4 +1,4 @@
-.PHONY: zshrc dump_zshrc git_config dump_git_config git_ignore dump_git_ignore code_settings_json dump_code_settings_json all dump_all
+.PHONY: zshrc dump_zshrc git_config dump_git_config git_ignore dump_git_ignore mise dump_mise code_settings_json dump_code_settings_json all dump_all
 
 zshrc:
 	@rsync -au ./.zshrc ~/
@@ -19,12 +19,18 @@ git_ignore:
 dump_git_ignore:
 	@rsync -au ~/.config/git/ignore ./.config/git/
 
+mise:
+	@rsync -au ./.config/mise/config.toml ~/.config/mise/
+
+dump_mise:
+	@rsync -au ~/.config/mise/config.toml ./.config/mise/
+
 code_settings_json:
 	@rsync -au ./.config/.vscode/settings.json ~/Library/Application\ Support/Code/User/
 
 dump_code_settings_json:
 	@rsync -au ~/Library/Application\ Support/Code/User/settings.json ./.config/.vscode/
 
-all: zshrc git_ignore code_settings_json
+all: zshrc git_ignore mise code_settings_json
 
-dump_all: dump_zshrc dump_git_ignore dump_code_settings_json
+dump_all: dump_zshrc dump_git_ignore dump_mise dump_code_settings_json

@@ -1,0 +1,10 @@
+[tools]
+bun = "latest"
+deno = "latest"
+node = "22"
+"npm:@angular/cli" = "19"
+"npm:@ionic/cli" = "7"
+"npm:pnpm" = "9.14"
+python = "3.13"
+
+[env]
