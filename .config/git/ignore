@@ -1,3 +1,5 @@
-mise.toml
+# local directory
+__local__
 
-.hairihou
+# mise
+mise.local.toml
