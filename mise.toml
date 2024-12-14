@@ -1,0 +1,35 @@
+[tasks.zshrc]
+run = "rsync -au ./.zshrc ~/ && [ -e ~/.hushlogin ] || touch ~/.hushlogin"
+
+[tasks."zshrc:dump"]
+run = "rsync -au ~/.zshrc ./"
+
+[tasks.gitconfig]
+run = "rsync -au ./.config/.gitconfig ~/"
+
+[tasks."gitconfig:dump"]
+run = "rsync -au ~/.gitconfig ./.config/"
+
+[tasks.gitignore]
+run = "rsync -au ./.config/git/ignore ~/.config/git/"
+
+[tasks."gitignore:dump"]
+run = "rsync -au ~/.config/git/ignore ./.config/git/"
+
+[tasks.mise]
+run = "rsync -au ./.config/mise/config.toml ~/.config/mise/"
+
+[tasks."mise:dump"]
+run = "rsync -au ~/.config/mise/config.toml ./.config/mise/"
+
+[tasks."code:settings_json"]
+run = "rsync -au ./.config/.vscode/settings.json ~/Library/Application\\ Support/Code/User/"
+
+[tasks."code:settings_json:dump"]
+run = "rsync -au ~/Library/Application\\ Support/Code/User/settings.json ./.config/.vscode/"
+
+[tasks.all]
+depends = ["zshrc", "gitignore", "mise", "code:settings_json"]
+
+[tasks."all:dump"]
+depends = ["zshrc:dump", "gitignore:dump", "mise:dump", "code:settings_json:dump"]
