@@ -1,4 +1,6 @@
 [tools]
+bun = "latest"
+deno = "latest"
 node = "22.12.0"
 "npm:pnpm" = "latest"
 python = "3.13"
