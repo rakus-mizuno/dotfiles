@@ -2,7 +2,43 @@
 bun = "latest"
 deno = "latest"
 node = "22.12.0"
-"npm:pnpm" = "latest"
+"npm:pnpm" = "9.15"
 python = "3.13"
 
 [env]
+
+[tasks.zshrc]
+run = "rsync -au ./.zshrc ~/ && [ -e ~/.hushlogin ] || touch ~/.hushlogin"
+
+[tasks."zshrc:dump"]
+run = "rsync -au ~/.zshrc ~/dotfiles/"
+
+[tasks.gitconfig]
+run = "rsync -au ~/dotfiles/.config/.gitconfig ~/"
+
+[tasks."gitconfig:dump"]
+run = "rsync -au ~/.gitconfig ~/dotfiles/.config/"
+
+[tasks.gitignore]
+run = "rsync -au ~/dotfiles/.config/git/ignore ~/.config/git/"
+
+[tasks."gitignore:dump"]
+run = "rsync -au ~/.config/git/ignore ~/dotfiles/.config/git/"
+
+[tasks.mise]
+run = "rsync -au ~/dotfiles/.config/mise/config.toml ~/.config/mise/"
+
+[tasks."mise:dump"]
+run = "rsync -au ~/.config/mise/config.toml ~/dotfiles/.config/mise/"
+
+[tasks."code:settings_json"]
+run = "rsync -au ~/dotfiles/.config/.vscode/settings.json ~/Library/Application\\ Support/Code/User/"
+
+[tasks."code:settings_json:dump"]
+run = "rsync -au ~/Library/Application\\ Support/Code/User/settings.json ~/dotfiles/.config/.vscode/"
+
+[tasks.all]
+depends = ["zshrc", "gitignore", "mise", "code:settings_json"]
+
+[tasks."all:dump"]
+depends = ["zshrc:dump", "gitignore:dump", "mise:dump", "code:settings_json:dump"]
