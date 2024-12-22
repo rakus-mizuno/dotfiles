@@ -12,6 +12,11 @@ setopt IGNOREEOF
 autoload -Uz compinit
 compinit
 
+# pure
+autoload -U promptinit
+promptinit
+prompt pure
+
 # peco
 peco-select-history() {
   BUFFER=$(\history -n -r 1 | peco --query "$LBUFFER")
@@ -63,9 +68,6 @@ export PATH="$JAVA_HOME/bin:$PATH"
 
 # npm
 export PATH="$HOME/.npm-global/bin:$PATH"
-
-# starship
-eval "$(starship init zsh)"
 
 # mise
 eval "$(mise activate zsh)"
