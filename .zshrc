@@ -72,5 +72,7 @@ export PATH="$HOME/.npm-global/bin:$PATH"
 # mise
 eval "$(mise activate zsh)"
 
-# Rancher Desktop
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
 export PATH="$HOME/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
+
